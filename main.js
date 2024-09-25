@@ -24,6 +24,9 @@ const createGrid = () => {
       gridCols.addEventListener("mouseover", () => {
         gridCols.style.backgroundColor = "blue";
       })
+      gridCols.addEventListener("click", () => {
+        gridCols.style.backgroundColor = "blue";
+      })
       row.appendChild(gridCols);
     }
   });
