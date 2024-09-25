@@ -30,3 +30,11 @@
 .column {
     border: 1px solid white;
 }
+
+
+@media (max-width:780px) {
+    .grid-container {
+        width: 90%;
+        height: 50%;
+    }
+}
