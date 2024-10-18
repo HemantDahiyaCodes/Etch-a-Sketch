@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #664d07;
+    background-color: purple;
     flex-direction: column;
 }
 
