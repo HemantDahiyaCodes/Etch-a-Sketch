@@ -11,7 +11,7 @@ const createGrid = () => {
   function Size() {
     const size = parseFloat(gridSize.value);
 
-    if (gridSize.value > 50) {
+    if (gridSize.value > 60) {
       alert("Please enter a value less than 60!");
       return;
     }
